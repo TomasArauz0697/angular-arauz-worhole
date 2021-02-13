@@ -1,0 +1,40 @@
+/* Add application styles & imports to this file! */
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,600;1,200;1,500;1,600&display=swap');
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+   font-family: 'Karla', sans-serif;
+}
+
+
+.navbar {
+  background: rgb(255, 255, 255);
+}
+:root {
+  --gris: #777;
+  --verde1: #1b9984;
+}
+
+/*Menu de nabvar*/
+.menu li > a {
+  color: var(--gris);
+  display: inline-block;
+  text-transform: Uppercase;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.4s;
+}
+
+
+/*session 1 home-session-download*/
+.header_Main{
+  padding-top: 60px;
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  align-items:center;
+  justify-content:center;
+}

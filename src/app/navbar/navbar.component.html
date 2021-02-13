@@ -1,0 +1,12 @@
+<div [className]="navbar ? 'contenedorN' : 'contenedor'">
+  <div class="navbar">
+
+	<ul class="menu">
+		<li class="logo"><i class="material-icons iconoLogo">computer</i><a href="#"><span>Wormhole</span> </a></li>
+    <li class="barss" (click)="openVideoCallUrl()"> <i [className]="navbar ? 'fas fa-times ' : 'fa fa-bars'" class="" aria-hidden="true"></i><a href="#"> </a></li>
+		<li  [className]="navbar ? 'itemsactive' : 'items'"><a href="#">Home</a> </li>
+		<li [className]="navbar ? 'itemsactive' : 'items'"> <a href="#">Nosotros</a> </li>
+		<li [className]="navbar ? 'itemsactive' : 'items'"> <a href="#">Place</a> </li>
+	</ul>
+</div>
+</div>

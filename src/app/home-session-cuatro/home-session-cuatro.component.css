@@ -1,0 +1,55 @@
+/*session4*/
+.session4{
+  display:grid;
+  grid-template-columns:repeat(1,1fr);
+  text-align:center;
+  grid-gap:12px;
+}
+
+.titulo p{
+  font-weight:200;
+  font-size:20px;
+}
+
+.imagenes{
+  display:grid;
+  grid-template-columns:0fr 1fr 1fr 1fr 0fr ;
+  column-gap:55px;
+}
+.right{
+  grid-column:2/4;
+}
+.left{
+  padding-top:90px;
+}
+.right  img{
+  width:100%;
+  height:100%;
+}
+.left  img{
+  width:100%;
+  height:100%;
+  
+  
+}
+
+
+@media screen and (max-width:600px){
+.imagenes{
+  display:grid;
+  grid-template-columns:repeat(1,1fr) ;
+  column-gap:55px;
+}
+.right{
+display: none;
+}
+.left{
+  padding-top:0px;
+}
+.titulo{
+  font-weight:100;
+  font-size:20px;
+  padding-top: 10px;
+}
+
+}

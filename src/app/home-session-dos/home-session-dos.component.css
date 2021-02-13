@@ -1,0 +1,70 @@
+
+/*session 2 de informacion*/
+
+.sessionInfo{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  background-color:#DDDFE7;
+  align-items:center;
+  text-align:start;
+}
+.video2{
+  grid-column:2/4;
+}
+.video2 video {
+  width:100%;
+  height:100%;
+}
+
+
+.titulo{
+  padding: 100px 60px 10px;
+  
+}
+.titulo h1{
+  font-weight:600;
+  font-size:45px;
+}
+
+.intro , .BTNs{
+   padding:  10px 60px;
+}
+
+.intro h5{
+  font-weight:200;
+  font-size:20px;
+  color:#818183;
+  
+}
+
+
+@media screen and (max-width: 600px) {
+.sessionInfo{
+  display:grid;
+  grid-template-columns:repeat(1,1fr);
+  background-color:#DDDFE7;
+  align-items:start;
+  text-align:start;
+}
+.video2{
+  grid-column:1/4;
+}
+.titulo{
+  padding: 30px 60px 10px;
+
+
+}
+.titulo>h1{
+  font-weight: 200;
+ font-size: 3rem;
+}
+.information{
+ display: grid;
+ grid-template-columns: 1fr;
+  text-align: justify;
+}
+.intro{
+  text-align: right;
+}
+
+}
